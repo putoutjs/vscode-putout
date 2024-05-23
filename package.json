@@ -1,0 +1,42 @@
+{
+  "name": "vs-code-putout",
+  "displayName": "vs-code-putout",
+  "description": "🐊Putout",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vs-code-putout.putout",
+        "title": "Putout"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.89.0",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.57.0",
+    "eslint-plugin-putout": "^22.8.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "putout": "^35.27.0",
+    "try-catch": "^3.0.1"
+  }
+}
