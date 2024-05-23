@@ -3,27 +3,30 @@
   "displayName": "vs-code-putout",
   "description": "🐊Putout",
   "version": "1.0.0",
+  "type": "commonjs",
   "engines": {
     "vscode": "^1.89.0"
   },
   "license": "MIT",
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other"],
   "activationEvents": [],
-  "main": "./extension.js",
+  "main": "./lib/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vs-code-putout.putout",
-        "title": "Putout"
-      }
-    ]
+    "commands": [{
+      "command": "vs-code-putout.putout",
+      "title": "Putout"
+    }]
   },
   "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
+    "test": "madrun test",
+    "test:vscode": "madrun test:vscode",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
@@ -33,6 +36,7 @@
     "@vscode/test-electron": "^2.3.9",
     "eslint": "^8.57.0",
     "eslint-plugin-putout": "^22.8.0",
+    "madrun": "^10.0.1",
     "typescript": "^5.4.5"
   },
   "dependencies": {
