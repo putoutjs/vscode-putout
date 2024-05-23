@@ -8,14 +8,18 @@
     "vscode": "^1.89.0"
   },
   "license": "MIT",
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "activationEvents": [],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vs-code-putout.putout",
-      "title": "Putout"
-    }]
+    "commands": [
+      {
+        "command": "vs-code-putout.putout",
+        "title": "Putout"
+      }
+    ]
   },
   "scripts": {
     "test": "madrun test",
@@ -41,6 +45,8 @@
   },
   "dependencies": {
     "putout": "^35.27.0",
-    "try-catch": "^3.0.1"
+    "samadhi": "^1.0.0",
+    "try-catch": "^3.0.1",
+    "try-to-catch": "^3.0.1"
   }
 }
