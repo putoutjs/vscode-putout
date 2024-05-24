@@ -16,8 +16,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "vs-code-putout.putout",
-        "title": "Putout"
+        "command": "vs-code-putout.putout.fix",
+        "title": "Putout Fix"
       }
     ]
   },
