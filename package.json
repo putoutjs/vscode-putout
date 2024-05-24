@@ -8,18 +8,14 @@
     "vscode": "^1.89.0"
   },
   "license": "MIT",
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other"],
   "activationEvents": ["*"],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vs-code-putout.putout.fix",
-        "title": "Putout Fix"
-      }
-    ]
+    "commands": [{
+      "command": "vs-code-putout.putout.fix",
+      "title": "Putout Fix"
+    }]
   },
   "scripts": {
     "test": "madrun test",
