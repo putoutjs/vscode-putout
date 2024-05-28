@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "putout": "^35.27.0",
-    "samadhi": "^1.0.0",
+    "samadhi": "^2.1.0",
     "try-catch": "^3.0.1",
     "try-to-catch": "^3.0.1"
   }
