@@ -8,14 +8,20 @@
     "vscode": "^1.89.0"
   },
   "license": "MIT",
-  "categories": ["Other"],
-  "activationEvents": ["*"],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vs-code-putout.putout.fix",
-      "title": "Putout Fix"
-    }]
+    "commands": [
+      {
+        "command": "vs-code-putout.putout.fix",
+        "title": "Putout Fix"
+      }
+    ]
   },
   "scripts": {
     "test": "madrun test",
@@ -30,7 +36,7 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
-    "@types/node": "18.x",
+    "@types/node": "^20.12.12",
     "@types/vscode": "^1.89.0",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.3.9",
