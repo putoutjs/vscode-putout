@@ -1,5 +1,6 @@
 {
   "name": "vscode-putout",
+  "private": "true",
   "displayName": "vscode-putout",
   "description": "🐊Putout",
   "version": "1.0.0",
@@ -36,7 +37,8 @@
     "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
     "coverage": "madrun coverage",
-    "report": "madrun report"
+    "report": "madrun report",
+    "wisdom": "madrun wisdom"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
@@ -47,7 +49,9 @@
     "eslint": "^9.3.0",
     "eslint-plugin-putout": "^22.8.0",
     "madrun": "^10.0.1",
-    "typescript": "^5.4.5"
+    "putasset": "^6.0.1",
+    "typescript": "^5.4.5",
+    "version-io": "^4.0.1"
   },
   "dependencies": {
     "putout": "^35.27.0",
