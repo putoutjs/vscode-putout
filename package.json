@@ -4,6 +4,10 @@
   "description": "🐊Putout",
   "version": "1.0.0",
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/putoutjs/vs-code-putout.git"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },

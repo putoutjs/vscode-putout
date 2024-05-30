@@ -5,3 +5,4 @@ yarn-error.log
 coverage
 .idea
 .vscode-test.mjs
+*.vsix
