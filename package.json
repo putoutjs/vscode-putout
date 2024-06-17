@@ -38,6 +38,7 @@
     "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
     "coverage": "madrun coverage",
+    "patch": "madrun patch",
     "report": "madrun report",
     "package": "madrun package",
     "upload": "madrun upload"
