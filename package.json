@@ -49,7 +49,7 @@
     "@types/vscode": "^1.89.0",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.3.9",
-    "@vscode/vsce": "^2.27.0",
+    "@vscode/vsce": "^3.0.0",
     "eslint": "^9.3.0",
     "eslint-plugin-putout": "^23.0.0",
     "madrun": "^10.0.1",
