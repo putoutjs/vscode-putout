@@ -1,3 +1,14 @@
+2024.12.19, v1.1.1
+
+feature:
+- df18fce vscode-putout: eslint-plugin-putout v23.3.0
+- 30a9db5 vscode-putout: putout v37.3.0
+- f86ef62 vscode-putout: @vscode/test-cli v0.0.10
+- 1ccfc0a vscode-putout: @vscode/vsce v3.0.0
+- 226a3bb vscode-putout: putout v36.3.1
+- 102a927 vscode-putout: @types/node v22.5.0
+- e783f77 vscode-putout: eslint-plugin-putout v23.0.0
+
 2024.08.25, v1.1.0
 
 feature:
