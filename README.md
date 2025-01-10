@@ -1,7 +1,6 @@
-# vs-code-putout 
+# vs-code-putout
 
 Visual Studio Code extension for 🐊[**Putout**](https://github.com/coderaiser/putout).
-
 
 ## Features
 
@@ -15,7 +14,7 @@ Set to `settings.json`:
 ```json
 {
     "editor.codeActionsOnSave": {
-      "source.fixAll": "always"
+        "source.fixAll": "always"
     }
 }
 ```

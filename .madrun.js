@@ -17,6 +17,4 @@ module.exports = {
     'upload': () => `putasset --filename vscode-putout-${readVersion()}.vsix --tag v${readVersion()} --r vscode-putout -o putoutjs`,
 };
 
-function readVersion() {
-    return require('./package').version;
-}
+const readVersion = () => require('./package').version;
