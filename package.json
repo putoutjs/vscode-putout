@@ -2,7 +2,7 @@
   "name": "vscode-putout",
   "displayName": "🐊Putout",
   "description": "Pluggable and configurable JavaScript Linter, code transformer and formatter, drop-in ESLint superpower replacement 💪 with built-in support for js, jsx typescript, flow, markdown, yaml and json. Write declarative codemods in a simplest possible way 😏",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "type": "commonjs",
   "repository": {
     "type": "git",
