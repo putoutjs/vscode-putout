@@ -2,7 +2,7 @@
   "name": "vscode-putout",
   "displayName": "🐊Putout",
   "description": "Pluggable and configurable JavaScript Linter, code transformer and formatter, drop-in ESLint superpower replacement 💪 with built-in support for js, jsx typescript, flow, markdown, yaml and json. Write declarative codemods in a simplest possible way 😏",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "type": "commonjs",
   "repository": {
     "type": "git",
@@ -13,14 +13,20 @@
   },
   "license": "MIT",
   "publisher": "coderaiser",
-  "categories": ["Other"],
-  "activationEvents": ["*"],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vs-code-putout.putout.fix",
-      "title": "Putout Fix"
-    }]
+    "commands": [
+      {
+        "command": "vs-code-putout.putout.fix",
+        "title": "Putout Fix"
+      }
+    ]
   },
   "icon": "images/putout.png",
   "scripts": {
