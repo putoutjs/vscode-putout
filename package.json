@@ -13,20 +13,14 @@
   },
   "license": "MIT",
   "publisher": "coderaiser",
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "*"
-  ],
+  "categories": ["Other"],
+  "activationEvents": ["*"],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vs-code-putout.putout.fix",
-        "title": "Putout Fix"
-      }
-    ]
+    "commands": [{
+      "command": "vs-code-putout.putout.fix",
+      "title": "Putout Fix"
+    }]
   },
   "icon": "images/putout.png",
   "scripts": {
