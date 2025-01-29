@@ -57,7 +57,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "putout": "^37.16.0",
+    "putout": "^38.0.0",
     "samadhi": "^2.1.0",
     "try-catch": "^3.0.1",
     "try-to-catch": "^3.0.1"
