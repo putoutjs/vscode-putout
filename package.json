@@ -13,20 +13,14 @@
   },
   "license": "MIT",
   "publisher": "coderaiser",
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "*"
-  ],
+  "categories": ["Other"],
+  "activationEvents": ["*"],
   "main": "./lib/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vs-code-putout.putout.fix",
-        "title": "Putout Fix"
-      }
-    ]
+    "commands": [{
+      "command": "vs-code-putout.putout.fix",
+      "title": "Putout Fix"
+    }]
   },
   "icon": "images/putout.png",
   "scripts": {
@@ -57,6 +51,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@putout/cli-process-file": "^1.0.0",
     "putout": "^38.0.0",
     "samadhi": "^2.1.0",
     "try-catch": "^3.0.1",
