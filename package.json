@@ -52,12 +52,12 @@
     "@vscode/test-electron": "^2.3.9",
     "@vscode/vsce": "^3.0.0",
     "eslint": "^9.3.0",
-    "eslint-plugin-putout": "^27.0.0",
+    "eslint-plugin-putout": "^28.0.4",
     "madrun": "^11.0.0",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@putout/cli-process-file": "^3.0.0",
+    "@putout/cli-process-file": "^4.1.0",
     "putout": "^40.0.3",
     "samadhi": "^3.0.2",
     "try-catch": "^3.0.1",
