@@ -1,0 +1,6 @@
+{
+    "editor.cursorSurroundingLines": 1,
+    "editor.cursorSurroundingLinesStyle": "default",
+    "editor.scrollBeyondLastLine": false,
+    "editor.stickyScroll.enabled": false
+}
