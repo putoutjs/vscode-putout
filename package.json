@@ -59,7 +59,7 @@
   "dependencies": {
     "@putout/cli-process-file": "^6.0.2",
     "putout": "^41.9.0",
-    "samadhi": "^3.0.2",
+    "samadhi": "^4.0.2",
     "try-catch": "^3.0.1",
     "try-to-catch": "^3.0.1"
   }
