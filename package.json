@@ -51,7 +51,7 @@
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.3.9",
     "@vscode/vsce": "^3.0.0",
-    "eslint": "^9.3.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-putout": "^29.4.0",
     "madrun": "^12.1.0",
     "typescript": "^5.4.5"
