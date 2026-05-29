@@ -57,7 +57,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@putout/cli-process-file": "^6.0.2",
+    "@putout/cli-process-file": "^7.0.0",
     "putout": "^41.9.0",
     "samadhi": "^4.0.2",
     "try-catch": "^4.0.7",
