@@ -1,3 +1,12 @@
+2026.05.29, v1.11.0
+
+feature:
+- db8a226 vscode-putout: typescript v6.0.3
+- 3c2502e vscode-putout: putout v42.5.1
+- 940f37e vscode-putout: madrun v13.0.2
+- dd5bb0a vscode-putout: eslint-plugin-putout v31.1.3
+- 2c725bc vscode-putout: @putout/cli-process-file v7.0.0
+
 2024.12.19, v1.1.1
 
 feature:
