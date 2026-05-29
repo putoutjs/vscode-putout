@@ -1,8 +1,10 @@
-node_modules
 *.swp
-yarn-error.log
+*.vsix
+*.log
+*.lock
 
-coverage
 .idea
 .vscode-test.mjs
-*.vsix
+
+node_modules
+coverage
